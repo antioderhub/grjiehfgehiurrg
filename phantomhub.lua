@@ -219,10 +219,10 @@ end)
 
 
 local Window = Rayfield:CreateWindow({
-   Name = "AntiOder Hub 2.02 | Executor: "..identifyexecutor(),
+   Name = "Phantom Hub 3.0 | Executor: "..identifyexecutor(),
    LoadingTitle = "waiting the script loading",
    LoadingSubtitle = "by aftr.lua",
-   Theme = "Amber Glow",
+   Theme = "AmberGlow",
    ConfigurationSaving = {
       Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
@@ -252,7 +252,7 @@ local ABOUTSection = ABOUTTab:CreateSection("About script")
 
 Rayfield:Notify({
    Title = "Script Executed!",
-   Content = "Welcome to the AntiOder Hub | Aftermath Lua Ecosystem",
+   Content = "Welcome to the Phantom Hub | Aftermath Lua Ecosystem",
    Duration = 5,
    Image = nil,
    Actions = { -- Notification Buttons
@@ -265,7 +265,7 @@ Rayfield:Notify({
 },
 })
 
-local Label = ABOUTTab:CreateLabel("ANTIODER HUB CREATED BY AFTERMATH WITH LOVE.")
+local Label = ABOUTTab:CreateLabel("PHANTOM HUB CREATED BY AFTERMATH WITH LOVE.")
 
 
 
