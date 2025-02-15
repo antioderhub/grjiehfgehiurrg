@@ -1,4 +1,9 @@
---UNITED STATES
+--[[
+     AntiOder Fly open sourced
+     Based on Fly Gui V3 and modded by Aftr
+     https://antioderhub.fun
+]]
+
 local main = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local up = Instance.new("TextButton")
